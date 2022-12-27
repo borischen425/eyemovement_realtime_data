@@ -45,7 +45,7 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = '34.127.88.74'
+HOST = 'https://borischen425-eyemovement-realt-eyemovement-realtime-data-5dzlsm.streamlit.app/'
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
