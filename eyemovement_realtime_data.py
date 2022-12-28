@@ -45,13 +45,18 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = '34.127.88.74'
+HOST = '34.127.33.101'
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
+timeout = 60 * 1
 
 # Connect to Gazepoint API
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.settimeout(10)
+s.connect(ADDRESS)
+
+s.settimeout(None)
 s.connect(ADDRESS)
 
 # Send commands to initialize data streaming
