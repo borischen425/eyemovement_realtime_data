@@ -45,7 +45,7 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = socket.gethostbyname('https://borischen425-eyemovement-realt-eyemovement-realtime-data-5dzlsm.streamlit.app/')
+HOST = '35.201.127.49'
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
