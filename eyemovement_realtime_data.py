@@ -13,7 +13,6 @@ from scipy.stats import skew
 st.set_page_config(layout="wide")
 
 st.title("Smart HCI_Eye Movement_AI model implementation")
-st.write(socket.gethostname())
 
 hide_table_row_index = """
         <style>
@@ -46,7 +45,7 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = '35.76.71.185'
+HOST = 'localhost'
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
