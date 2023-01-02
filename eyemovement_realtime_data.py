@@ -13,7 +13,7 @@ from scipy.stats import skew
 st.set_page_config(layout="wide")
 
 st.title("Smart HCI_Eye Movement_AI model implementation")
-st.write(socket.gethostname())
+st.write(socket.gethostname(socket.gethostbyname()))
 
 hide_table_row_index = """
         <style>
