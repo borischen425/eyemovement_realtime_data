@@ -46,7 +46,7 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = '34.211.200.85'
+HOST = '10.204.103.249'
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
