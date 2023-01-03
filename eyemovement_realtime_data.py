@@ -46,7 +46,7 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = 'srv-celrsjen6mpkfa5tmgn0-kn-00014-deployment-9b568bfdf-5qw4q'
+HOST = socket.getfqdn()
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
