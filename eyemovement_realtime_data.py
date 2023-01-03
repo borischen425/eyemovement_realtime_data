@@ -46,7 +46,7 @@ a = []
 b = 1
 
 # Host machine IP
-HOST = socket.gethostname(socket.gethostbyname())
+HOST = '34.211.200.85'
 # Gazepoint Port
 PORT = 4242
 ADDRESS = (HOST, PORT)
